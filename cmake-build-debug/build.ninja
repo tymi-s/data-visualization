@@ -52,7 +52,7 @@ build cmake_object_order_depends_target_DATA_VISUALIZATION: phony || CMakeFiles/
 build CMakeFiles/DATA_VISUALIZATION.dir/main.cpp.obj: CXX_COMPILER__DATA_VISUALIZATION_unscanned_Debug C$:/Users/Tymon/CLionProjects/DATA-VISUALIZATION/main.cpp || cmake_object_order_depends_target_DATA_VISUALIZATION
   DEP_FILE = CMakeFiles\DATA_VISUALIZATION.dir\main.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/libs/SFML-2.5.1/include -IC:/libs/glew-2.2.0/include
+  INCLUDES = -IC:/libs/SFML-2.5.1/include -IC:/libs/glew-2.2.0/include -IC:/libs/glm
   OBJECT_DIR = CMakeFiles\DATA_VISUALIZATION.dir
   OBJECT_FILE_DIR = CMakeFiles\DATA_VISUALIZATION.dir
 

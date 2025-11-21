@@ -3,9 +3,10 @@ project(DATA_VISUALIZATION)
 
 set(CMAKE_CXX_STANDARD 20)
 
-# Ścieżki do bibliotek - zaktualizowane nazwy folderów
+# Ścieżki do bibliotek
 set(SFML_ROOT "C:/libs/SFML-2.5.1")
 set(GLEW_ROOT "C:/libs/glew-2.2.0")
+set(GLM_ROOT "C:/libs/glm")  # Tutaj GLM
 
 add_executable(DATA_VISUALIZATION main.cpp)
 
@@ -13,6 +14,7 @@ add_executable(DATA_VISUALIZATION main.cpp)
 target_include_directories(DATA_VISUALIZATION PRIVATE
     ${SFML_ROOT}/include
     ${GLEW_ROOT}/include
+    ${GLM_ROOT}  # GLM jest header-only
 )
 
 # Dodaj ścieżki do bibliotek
