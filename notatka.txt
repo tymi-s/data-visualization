@@ -1,0 +1,7 @@
+JAK DZIAŁĄ TEN KOD:
+
+GLEW - biblioteka do obsługi rozszerzeń OpenGL
+SFML - do tworzenia okna i obsługi zdarzeń
+GLM - matematyka 3D (wektory, macierze, transformacje)
+
+void shaderCompilationStatus(); - funkcja sprawdzająca kompilacje shaderów

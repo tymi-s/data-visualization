@@ -8,7 +8,8 @@ set(SFML_ROOT "C:/libs/SFML-2.5.1")
 set(GLEW_ROOT "C:/libs/glew-2.2.0")
 set(GLM_ROOT "C:/libs/glm")  # Tutaj GLM
 
-add_executable(DATA_VISUALIZATION main.cpp)
+add_executable(DATA_VISUALIZATION main.cpp
+        stb_image.h)
 
 # Dodaj ścieżki include
 target_include_directories(DATA_VISUALIZATION PRIVATE
